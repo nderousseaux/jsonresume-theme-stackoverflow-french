@@ -537,22 +537,28 @@ section .location {
   height: 5px;
 }
 
+.level.A1 .bar::after,
+.level.A2 .bar::after,
 .level.beginner .bar::after {
   background: #eb5f51;
   width: 2.5em;
 }
 
+.level.B1 .bar::after,
 .level.intermediate .bar::after {
   background: #ffdf1f;
   width: 5em;
 }
 
+.level.B2 .bar::after,
+.level.C1 .bar::after,
 .level.advanced .bar::after,
 .level.fluent .bar::after {
   background: #5cb85c;
   width: 7.5em;
 }
 
+.level.C2 .bar::after,
 .level.master .bar::after,
 .level.natif .bar::after,
 .level.native.speaker .bar::after {
