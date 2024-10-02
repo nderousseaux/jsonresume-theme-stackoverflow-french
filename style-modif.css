@@ -232,6 +232,10 @@ section .location {
   justify-content: flex-start;
 }
 
+#skills {
+  justify-content: space-between;
+}
+
 #header > div {
   line-height: 1.5;
 }
@@ -361,7 +365,7 @@ section .location {
 .section header .date {
   display: block;
   font-size: 1rem;
-  padding: 0.1em 0;
+  padding: 0em 0;
   color: #606d76;
   font-weight: 400;
 }
@@ -502,8 +506,9 @@ section .location {
   border-bottom: none;
 }
 
+#interests .item,
 #skills .item {
-  width: 16em;
+  width: 32%
 }
 
 #skills .item .keywords {
@@ -572,7 +577,7 @@ section .location {
 }
 
 .section > section > section {
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 /******************
